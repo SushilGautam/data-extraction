@@ -4,13 +4,12 @@
 
 # my_request("www.facebook.com", "this is a social media site.")
 # my_request("www.google.com", "this is google")
-# import computations
+import computations
 
-from computations import add_number, subtract
+# from computations import add_number, subtract
 
-
-result1 = add_number(1, 2)
-result2 = subtract(10, 5)
+result1 = computations.add_number(1, 2)
+result2 = computations.subtract(10, 5)
 print("#######outside functionr result############")
 
 print(result1)
